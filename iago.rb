@@ -11,9 +11,5 @@ class Iago < Formula
 
   def install
     bin.install "iago"
-    # system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
   end
 end
