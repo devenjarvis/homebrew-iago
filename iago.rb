@@ -10,11 +10,6 @@ class Iago < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "gobuild.sh"
-    bin.install "./gobuild/bin/iago" => "iago"
-  end
-
-  test do
-    system "#{bin}/iago", "--help"
+    bin.install "iago"
   end
 end
