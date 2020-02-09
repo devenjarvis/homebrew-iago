@@ -10,6 +10,6 @@ class Iago < Formula
   # depends_on "cmake" => :build
 
   def install
-    bin.install "iago"
+    bin.install "build/iago"
   end
 end
